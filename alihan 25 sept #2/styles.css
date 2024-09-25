@@ -1,0 +1,247 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body, html {
+    font-family: 'Inter', sans-serif;
+    height: 100%;
+    color: white;
+    overflow-x: hidden;
+}
+
+header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 20px;
+    background-color: #333;
+}
+
+nav ul {
+    display: flex;
+    list-style: none;
+}
+
+nav ul li {
+    margin-right: 20px;
+}
+
+nav ul li a {
+    color: white;
+    text-decoration: none;
+}
+
+.btn-book {
+    background-color: #f82900;
+    color: #ffffff;
+    padding: 10px 20px;
+    text-decoration: none;
+    border-radius: 5px;
+}
+
+.hero {
+    height: 100vh;
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    position: relative;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    text-align: center;
+}
+
+.hero .background {
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+    z-index: -1;
+}
+
+.hero-content {
+    z-index: 1;
+}
+
+.btn-dreamtour {
+    background-color: #ff5a5f; 
+    color: white;
+    padding: 10px 20px;
+    text-decoration: none;
+    border-radius: 5px;
+    font-weight: bold;
+    text-align: center;
+}
+
+.second-hero {
+    background-image: url('image/pic2.png'); 
+}
+
+.overlay {
+    position: absolute;
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    background: rgba(0, 0, 0, 0.5); 
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.content {
+    max-width: 800px;
+    padding: 20px;
+    color: white;
+    text-align: left; 
+}
+
+h1 {
+    font-size: 48px;
+    margin-bottom: 20px;
+    font-weight: bold;
+}
+
+h2 {
+    font-size: 36px;
+    margin-top: 40px;
+    margin-bottom: 20px;
+    font-weight: bold;
+}
+
+p {
+    font-size: 18px;
+    line-height: 1.6;
+    margin-bottom: 20px;
+}
+.section-advantages {
+    position: relative;
+    height: 100vh;
+    display: flex;
+    justify-content: flex-start; 
+    align-items: center;
+}
+
+.advantages-background {
+    background-image: url('image/pic4.png'); 
+    background-size: cover;
+    background-position: center;
+    width: 100%;
+    height: 100%;
+    position: relative;
+}
+
+.advantages-overlay {
+    background-color: rgba(0, 0, 0, 0.6);
+    position: absolute;
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    display: flex;
+    justify-content: flex-start; 
+    align-items: center;
+}
+
+.advantages-content {
+    text-align: left;
+    max-width: 600px;
+    padding: 20px;
+    color: white;
+    margin-left: 40px; 
+}
+
+.advantages-title {
+    font-size: 3rem;
+    margin-bottom: 20px;
+}
+
+.advantages-text {
+    font-size: 1.2rem;
+    line-height: 1.6;
+}
+.day-section {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 50px;
+    background-color: white;
+}
+
+.day-container {
+    display: flex;
+    max-width: 1200px;
+    width: 100%;
+    background-color: #ffffff;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    border-radius: 10px;
+    overflow: hidden;
+}
+
+.day-image img {
+    width: 500px;
+    height: auto;
+    object-fit: cover;
+}
+
+.day-content {
+    padding: 30px;
+    flex: 1;
+}
+
+.day-title {
+    font-size: 2rem;
+    color: #333;
+    margin-bottom: 20px;
+}
+
+.day-title span {
+    color: #ff6600;
+    font-weight: bold;
+}
+
+.day-description {
+    font-size: 1.1rem;
+    color: #666;
+    margin-bottom: 20px;
+    line-height: 1.6;
+}
+
+.day-duration {
+    font-weight: bold;
+    margin-bottom: 30px;
+}
+
+.subscribe-button {
+    background-color: #ff6600;
+    color: white;
+    padding: 15px 30px;
+    font-size: 1rem;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    transition: background-color 0.3s;
+}
+
+.subscribe-button:hover {
+    background-color: #e65c00;
+}
+
+.contact-info {
+    margin-top: 20px;
+    text-align: right;
+}
+
+.contact-info p {
+    font-size: 1rem;
+    color: #333;
+}
+
+.contact-info p:nth-child(2) {
+    margin-top: 10px;
+    font-size: 0.9rem;
+    color: #888;
+}
